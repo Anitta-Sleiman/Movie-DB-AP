@@ -1,0 +1,29 @@
+{
+  "name": "movie-db-ap",
+  "version": "1.0.0",
+  "description": "MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anitta-Sleiman/Movie-DB-AP.git"
+  },
+  "author": "A-Sleiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anitta-Sleiman/Movie-DB-AP/issues"
+  },
+  "homepage": "https://github.com/Anitta-Sleiman/Movie-DB-AP#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
